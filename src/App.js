@@ -7,7 +7,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <header>
-          <NavLink>Home</NavLink>
+          <NavLink exact to="/">
+            Home
+          </NavLink>
         </header>
       </BrowserRouter>
     </div>
