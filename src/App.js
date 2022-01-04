@@ -12,16 +12,16 @@ function App() {
           <NavLink exact to="/">
             Home
           </NavLink>
-
-          <Switch>
-            <Route exact path="/">
-              <DogList />
-            </Route>
-            <Route path="/dogs/:id">
-              <Dog />
-            </Route>
-          </Switch>
         </header>
+
+        <Switch>
+          <Route exact path="/">
+            <DogList />
+          </Route>
+          <Route path="/dogs/:id">
+            <Dog />
+          </Route>
+        </Switch>
       </BrowserRouter>
     </div>
   );
