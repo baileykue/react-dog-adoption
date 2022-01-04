@@ -13,8 +13,6 @@ export default function AllDogs() {
     fetchData();
   }, []);
 
-  console.log(dogs);
-
   return (
     <div className="dogs">
       <DogList dogs={dogs} />
