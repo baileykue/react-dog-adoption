@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, NavLink, Route, Switch } from 'react-router-dom';
-import DogList from './components/DogList/DogList';
+import AllDogs from './views/AllDogs/AllDogs';
 import Dog from './views/Dog/Dog';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
 
         <Switch>
           <Route exact path="/">
-            <DogList />
+            <AllDogs />
           </Route>
           <Route path="/dogs/:id">
             <Dog />

@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 export default function DogCard() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return (
+    <div>
+      <p>dog info here</p>
+    </div>
+  );
 }
