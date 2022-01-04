@@ -1,8 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
 import { BrowserRouter, NavLink, Route, Switch } from 'react-router-dom';
 import AllDogs from './views/AllDogs/AllDogs';
 import Dog from './views/Dog/Dog';
+import './App.css';
 
 function App() {
   return (

@@ -7,7 +7,7 @@ export default function DogList({ dogs }) {
     <>
       <h1>Dogs Available For Adoption</h1>
       {dogs.map((dog) => (
-        <Link key={dog.id}>
+        <Link key={dog.id} to={`/dogs/${dog.id}`}>
           <DogCard key={dog.id} {...dog} />
         </Link>
       ))}
