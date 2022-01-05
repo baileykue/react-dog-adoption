@@ -8,6 +8,7 @@ export default function Header() {
       <NavLink exact to="/">
         Home
       </NavLink>
+      <NavLink to="/admin">Admin</NavLink>
     </div>
   );
 }
