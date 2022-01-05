@@ -1,10 +1,11 @@
 import React from 'react';
+import './DogCard.css';
 
 export default function DogCard({ age, name, image, breed }) {
   return (
-    <div>
+    <div className="card">
       <img src={image} />
-      <h3>{name}</h3>
+      <h2>{name}</h2>
       <p>
         Hi! I am a(n) {age} year(s) old {breed}. I cannot wait to meet you!
       </p>

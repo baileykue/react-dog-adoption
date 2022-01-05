@@ -17,7 +17,7 @@ export default function Dog() {
     fetchData();
   }, [params.id]);
 
-  if (loading) return <h3>Loading dog...</h3>;
+  if (loading) return <h3>Loading doggy info...</h3>;
 
   return (
     <div className="detail">

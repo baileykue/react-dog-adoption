@@ -2,13 +2,21 @@
   font-family: 'Fascinate Inline', cursive;
 }
 
+body {
+  height: 100vh;
+}
+
+.App {
+  height: 100%;
+}
+
 a:link {
   color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
 }
 
 a:hover {
-  color: purple;
+  color: rgb(160, 4, 4);
 }
 
 a:visited {
