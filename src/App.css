@@ -35,3 +35,7 @@ button:hover {
   color: rgb(230, 230, 230);
   font-size: medium;
 }
+
+input {
+  border-radius: 20px;
+}

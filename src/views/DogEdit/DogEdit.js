@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchById, updateDog, createDog } from '../../services/dogs';
+import { fetchById, updateDog } from '../../services/dogs';
 import DogForm from '../../components/DogForm/DogForm';
 
 export default function DogEdit() {
@@ -27,6 +27,8 @@ export default function DogEdit() {
     e.preventDefault();
     const data = await updateDog(params.id);
   };
+
+  if (loading) return <h3>Loading list of doggies...</h3>;
 
   return (
     <div>
