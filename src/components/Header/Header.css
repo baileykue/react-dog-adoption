@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: x-large;
+}
+
+.header:hover {
+  text-shadow: 2px 2px 2px darkgrey;
+}

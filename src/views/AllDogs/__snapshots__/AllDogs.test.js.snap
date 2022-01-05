@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AllDogs/> should render the entire list of dogs 1`] = `
+<div>
+  <div
+    class="home"
+  >
+    <h1>
+      Dogs Available For Adoption
+    </h1>
+    <div
+      class="dogs"
+    >
+      <a
+        href="/dogs/10"
+      >
+        <div
+          class="card"
+        >
+          <img
+            src="https://placedog.net/500?id=6"
+          />
+          <h2>
+            Barton
+          </h2>
+          <p>
+            Hi! I am a(n) 
+            1
+             year(s) old 
+            Weimaraner
+            . I cannot wait to meet you!
+          </p>
+        </div>
+      </a>
+      <a
+        href="/dogs/11"
+      >
+        <div
+          class="card"
+        >
+          <img
+            src="https://placedog.net/500?id=21"
+          />
+          <h2>
+            Happy
+          </h2>
+          <p>
+            Hi! I am a(n) 
+            11
+             year(s) old 
+            French Bulldog
+            . I cannot wait to meet you!
+          </p>
+        </div>
+      </a>
+      <a
+        href="/dogs/14"
+      >
+        <div
+          class="card"
+        >
+          <img
+            src="https://placedog.net/500?id=22"
+          />
+          <h2>
+            Eyes
+          </h2>
+          <p>
+            Hi! I am a(n) 
+            4
+             year(s) old 
+            Weimaraner Mix
+            . I cannot wait to meet you!
+          </p>
+        </div>
+      </a>
+      <a
+        href="/dogs/15"
+      >
+        <div
+          class="card"
+        >
+          <img
+            src="https://placedog.net/500?id=26"
+          />
+          <h2>
+            Pugilicious
+          </h2>
+          <p>
+            Hi! I am a(n) 
+            12
+             year(s) old 
+            Pug
+            . I cannot wait to meet you!
+          </p>
+        </div>
+      </a>
+      <a
+        href="/dogs/5"
+      >
+        <div
+          class="card"
+        >
+          <img
+            src="https://placedog.net/500?id=8"
+          />
+          <h2>
+            Melba
+          </h2>
+          <p>
+            Hi! I am a(n) 
+            4
+             year(s) old 
+            Austrailian Cattle Dog
+            . I cannot wait to meet you!
+          </p>
+        </div>
+      </a>
+      <a
+        href="/dogs/9"
+      >
+        <div
+          class="card"
+        >
+          <img
+            src="https://placedog.net/500?id=5"
+          />
+          <h2>
+            Liliana
+          </h2>
+          <p>
+            Hi! I am a(n) 
+            1
+             year(s) old 
+            Husky
+            . I cannot wait to meet you!
+          </p>
+        </div>
+      </a>
+      <a
+        href="/dogs/6"
+      >
+        <div
+          class="card"
+        >
+          <img
+            src="https://images.pexels.com/photos/6246667/pexels-photo-6246667.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+          />
+          <h2>
+            Ron
+          </h2>
+          <p>
+            Hi! I am a(n) 
+            0
+             year(s) old 
+            Golden Retriever
+            . I cannot wait to meet you!
+          </p>
+        </div>
+      </a>
+      <a
+        href="/dogs/2"
+      >
+        <div
+          class="card"
+        >
+          <img
+            src="https://placedog.net/500?id=12"
+          />
+          <h2>
+            Amely
+          </h2>
+          <p>
+            Hi! I am a(n) 
+            0
+             year(s) old 
+            Rottweiler
+            . I cannot wait to meet you!
+          </p>
+        </div>
+      </a>
+      <a
+        href="/dogs/3"
+      >
+        <div
+          class="card"
+        >
+          <img
+            src="https://placedog.net/500?id=10"
+          />
+          <h2>
+            Althea
+          </h2>
+          <p>
+            Hi! I am a(n) 
+            1
+             year(s) old 
+            German Short-haired Pointer
+            . I cannot wait to meet you!
+          </p>
+        </div>
+      </a>
+      <a
+        href="/dogs/4"
+      >
+        <div
+          class="card"
+        >
+          <img
+            src="https://placedog.net/500?id=51"
+          />
+          <h2>
+            Franny
+          </h2>
+          <p>
+            Hi! I am a(n) 
+            4
+             year(s) old 
+            French Bulldog
+            . I cannot wait to meet you!
+          </p>
+        </div>
+      </a>
+      <a
+        href="/dogs/16"
+      >
+        <div
+          class="card"
+        >
+          <img
+            src="https://images.pexels.com/photos/5886866/pexels-photo-5886866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          />
+          <h2>
+            Ginny
+          </h2>
+          <p>
+            Hi! I am a(n) 
+            0
+             year(s) old 
+            Golden Retriever
+            . I cannot wait to meet you!
+          </p>
+        </div>
+      </a>
+      <a
+        href="/dogs/8"
+      >
+        <div
+          class="card"
+        >
+          <img
+            src="https://placedog.net/500?id=4"
+          />
+          <h2>
+            Eileen
+          </h2>
+          <p>
+            Hi! I am a(n) 
+            2
+             year(s) old 
+            American Boxer
+            . I cannot wait to meet you!
+          </p>
+        </div>
+      </a>
+      <a
+        href="/dogs/17"
+      >
+        <div
+          class="card"
+        >
+          <img
+            src="https://placedog.net/1000/563?id=3"
+          />
+          <h2>
+            Mrs. Weasley
+          </h2>
+          <p>
+            Hi! I am a(n) 
+            3
+             year(s) old 
+            Golden Retriever
+            . I cannot wait to meet you!
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

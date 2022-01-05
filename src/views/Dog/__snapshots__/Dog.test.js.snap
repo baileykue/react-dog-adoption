@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dog/> should render the specific dog information 1`] = `
+<div>
+  <div>
+    <div
+      class="detail"
+    >
+      <img
+        class="bio-img"
+        src="https://placedog.net/500?id=51"
+      />
+      <h2>
+        Franny
+      </h2>
+      <p>
+        Sweet Frenchie with lots of love to give.
+      </p>
+    </div>
+  </div>
+</div>
+`;
