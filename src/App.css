@@ -1,3 +1,16 @@
 * {
   font-family: 'Fascinate Inline', cursive;
 }
+
+a:link {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+
+a:hover {
+  color: purple;
+}
+
+a:visited {
+  color: rgba(0, 0, 0, 0.8);
+}
