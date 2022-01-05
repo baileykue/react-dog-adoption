@@ -25,7 +25,7 @@ export default function DogEdit() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const data = await updateDog(params.id);
+    await updateDog(params.id);
   };
 
   if (loading) return <h3>Loading list of doggies...</h3>;
