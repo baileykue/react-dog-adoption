@@ -17,9 +17,15 @@ export default function DogEdit() {
     fetchData();
   }, [params.id]);
 
+  const updateDog = (key, value) => {
+    dog[key] = value;
+    //this makes a new object and will actualy update each key value pair within the dog object
+    setDog({ ...dog });
+  };
+
   return (
     <div>
-      <DogForm {...dog} />
+      <DogForm {...dog} updateDog={updateDog} />
     </div>
   );
 }
