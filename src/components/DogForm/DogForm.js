@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function DogForm({ name, bio, image, age, breed, updateDog }) {
+export default function DogForm({ name, bio, image, age, breed, updateDogForm, handleSubmit }) {
   return (
     <div>
       <form>
@@ -10,9 +10,10 @@ export default function DogForm({ name, bio, image, age, breed, updateDog }) {
           type="text"
           value={name}
           onChange={(e) => {
-            updateDog('name', e.target.value);
+            updateDogForm('name', e.target.value);
           }}
         />
+        <button onClick={handleSubmit}>Save</button>
       </form>
       <p>dog form</p>
     </div>

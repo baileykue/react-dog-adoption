@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchById } from '../../services/dogs';
+import { fetchById, updateDog } from '../../services/dogs';
 import DogForm from '../../components/DogForm/DogForm';
 
 export default function DogEdit() {
@@ -17,15 +17,20 @@ export default function DogEdit() {
     fetchData();
   }, [params.id]);
 
-  const updateDog = (key, value) => {
+  const updateDogForm = (key, value) => {
     dog[key] = value;
     //this makes a NEW object, effectively updating each key value pair within the dog object
     setDog({ ...dog });
   };
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const data = await updateDog(params.id);
+  };
+
   return (
     <div>
-      <DogForm {...dog} updateDog={updateDog} />
+      <DogForm {...dog} updateDogForm={updateDogForm} handleSubmit={handleSubmit} />
     </div>
   );
 }
