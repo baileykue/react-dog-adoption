@@ -13,9 +13,49 @@ export default function DogForm({ name, bio, image, age, breed, updateDogForm, h
             updateDogForm('name', e.target.value);
           }}
         />
+
+        <label>Bio: </label>
+        <input
+          placeholder="Bio"
+          type="text"
+          value={bio}
+          onChange={(e) => {
+            updateDogForm('name', e.target.value);
+          }}
+        />
+
+        <label>Image: </label>
+        <input
+          placeholder="Image"
+          type="text"
+          value={image}
+          onChange={(e) => {
+            updateDogForm('name', e.target.value);
+          }}
+        />
+
+        <label>Age: </label>
+        <input
+          placeholder="Age"
+          type="text"
+          value={age}
+          onChange={(e) => {
+            updateDogForm('name', e.target.value);
+          }}
+        />
+
+        <label>Breed: </label>
+        <input
+          placeholder="Breed"
+          type="text"
+          value={breed}
+          onChange={(e) => {
+            updateDogForm('name', e.target.value);
+          }}
+        />
+
         <button onClick={handleSubmit}>Save</button>
       </form>
-      <p>dog form</p>
     </div>
   );
 }
