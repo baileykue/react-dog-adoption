@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchById, updateDog } from '../../services/dogs';
+import { fetchById, updateDog, createDog } from '../../services/dogs';
 import DogForm from '../../components/DogForm/DogForm';
 
 export default function DogEdit() {

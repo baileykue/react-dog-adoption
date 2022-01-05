@@ -1,9 +1,10 @@
 import React from 'react';
+import DogForm from '../../components/DogForm/DogForm';
 
 export default function Admin() {
   return (
     <div>
-      <h2>this is the admin page woot</h2>
+      <DogForm />
     </div>
   );
 }
