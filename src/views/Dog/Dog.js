@@ -20,7 +20,7 @@ export default function Dog() {
   if (loading) return <h3>Loading doggy info...</h3>;
 
   return (
-    <div className="detail">
+    <div>
       <DogDetail {...dog} showDetail />
     </div>
   );
