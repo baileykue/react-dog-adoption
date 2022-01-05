@@ -1,17 +1,14 @@
 import { BrowserRouter, NavLink, Route, Switch } from 'react-router-dom';
 import AllDogs from './views/AllDogs/AllDogs';
 import Dog from './views/Dog/Dog';
+import Header from './components/Header/Header';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <header>
-          <NavLink exact to="/">
-            Home
-          </NavLink>
-        </header>
+        <Header />
 
         <Switch>
           <Route exact path="/">
