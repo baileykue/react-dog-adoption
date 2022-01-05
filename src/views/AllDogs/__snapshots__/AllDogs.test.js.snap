@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AllDogs/> should render the entire list of dogs 1`] = `
+<div>
+  <div
+    class="dogs"
+  >
+    <h1>
+      Dogs Available For Adoption
+    </h1>
+  </div>
+</div>
+`;
