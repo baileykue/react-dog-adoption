@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 import { fetchById, updateDog } from '../../services/dogs';
 import DogForm from '../../components/DogForm/DogForm';
 
@@ -7,6 +7,7 @@ export default function DogEdit() {
   const [dog, setDog] = useState({});
   const [loading, setLoading] = useState(true);
   const params = useParams();
+  const history = useHistory();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -24,7 +25,8 @@ export default function DogEdit() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await updateDog(params.id);
+    await updateDog(dog);
+    history.push(`/dogs/${dog.id}`);
   };
 
   if (loading) return <h3>Loading list of doggies...</h3>;

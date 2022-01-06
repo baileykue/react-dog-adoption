@@ -1,16 +1,7 @@
 import React from 'react';
 import './DogForm.css';
 
-export default function DogForm({
-  name,
-  bio,
-  image,
-  age,
-  breed,
-  updateDogForm,
-  handleSubmit,
-  handleCreate,
-}) {
+export default function DogForm({ name, bio, image, age, breed, updateDogForm, handleSubmit }) {
   return (
     <div>
       <form className="form">
@@ -31,7 +22,7 @@ export default function DogForm({
           type="text"
           value={bio}
           onChange={(e) => {
-            updateDogForm('name', e.target.value);
+            updateDogForm('bio', e.target.value);
           }}
         />
 
@@ -41,7 +32,7 @@ export default function DogForm({
           type="text"
           value={image}
           onChange={(e) => {
-            updateDogForm('name', e.target.value);
+            updateDogForm('image', e.target.value);
           }}
         />
 
@@ -51,7 +42,7 @@ export default function DogForm({
           type="text"
           value={age}
           onChange={(e) => {
-            updateDogForm('name', e.target.value);
+            updateDogForm('age', e.target.value);
           }}
         />
 
@@ -61,7 +52,7 @@ export default function DogForm({
           type="text"
           value={breed}
           onChange={(e) => {
-            updateDogForm('name', e.target.value);
+            updateDogForm('breed', e.target.value);
           }}
         />
 
