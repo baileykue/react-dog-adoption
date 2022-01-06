@@ -23,8 +23,13 @@ export default function Dog() {
   };
 
   const handleDelete = async () => {
-    await deleteDogById(params.id);
-    history.push('/');
+    try {
+      await deleteDogById(params.id);
+      alert("You have successfully removed this dog's info");
+      history.push('/');
+    } catch {
+      alert('Something went wrong! Please try again.');
+    }
   };
 
   if (loading) return <h3>Loading doggy info...</h3>;
