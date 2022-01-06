@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useHistory } from 'react-router-dom';
 import DogDetail from '../../components/DogDetail/DogDetail';
-import { fetchById, updateDog } from '../../services/dogs';
+import { deleteDogById, fetchById } from '../../services/dogs';
 
 export default function Dog() {
   const [dog, setDog] = useState([]);
@@ -23,7 +23,7 @@ export default function Dog() {
   };
 
   const handleDelete = async () => {
-    //the delete from supabase function should be  called here
+    await deleteDogById(params.id);
     history.push('/');
   };
 

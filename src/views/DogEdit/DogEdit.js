@@ -5,6 +5,7 @@ import DogForm from '../../components/DogForm/DogForm';
 
 export default function DogEdit() {
   const [dog, setDog] = useState({});
+  const [message, setMessage] = useState('');
   const [loading, setLoading] = useState(true);
   const params = useParams();
   const history = useHistory();
@@ -25,14 +26,19 @@ export default function DogEdit() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await updateDog(dog);
-    history.push(`/dogs/${dog.id}`);
+    try {
+      await updateDog(dog);
+      history.push(`/dogs/${dog.id}`);
+    } catch {
+      setMessage('Something went wrong! Please try again.');
+    }
   };
 
   if (loading) return <h3>Loading list of doggies...</h3>;
 
   return (
     <div>
+      <h3>{message}</h3>
       <DogForm {...dog} updateDogForm={updateDogForm} handleSubmit={handleSubmit} />
     </div>
   );
