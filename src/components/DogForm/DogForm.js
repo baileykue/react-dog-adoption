@@ -16,8 +16,7 @@ export default function DogForm({ name, bio, image, age, breed, updateDogForm, h
         />
 
         <label>Bio: </label>
-        <input
-          className="bio"
+        <textarea
           placeholder="Bio"
           type="text"
           value={bio}

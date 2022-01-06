@@ -14,8 +14,13 @@ export default function Admin() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await createDog(dog);
-    history.push(`/`);
+    try {
+      await createDog(dog);
+      alert('You have successfully added a doggo!');
+      history.push(`/`);
+    } catch {
+      alert('Something went wrong! Please try again.');
+    }
   };
 
   return (
