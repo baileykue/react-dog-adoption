@@ -22,13 +22,16 @@ export default function Dog() {
     history.push(`/dogs/${params.id}/edit`);
   };
 
-  //const handleDelete = async () => {};
+  const handleDelete = async () => {
+    //the delete from supabase function should be  called here
+    history.push('/');
+  };
 
   if (loading) return <h3>Loading doggy info...</h3>;
 
   return (
     <div>
-      <DogDetail {...dog} handleEdit={handleEdit} showDetail />
+      <DogDetail {...dog} handleEdit={handleEdit} handleDelete={handleDelete} showDetail />
     </div>
   );
 }

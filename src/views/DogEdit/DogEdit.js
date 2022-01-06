@@ -19,7 +19,6 @@ export default function DogEdit() {
 
   const updateDogForm = (key, value) => {
     dog[key] = value;
-    //this makes a NEW object, effectively updating each key value pair within the dog object
     setDog({ ...dog });
   };
 

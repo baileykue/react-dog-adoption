@@ -16,6 +16,6 @@ export async function updateDog(dog) {
 }
 
 export async function createDog(dog) {
-  const response = await client.from('dogs').create(dog);
+  const response = await client.from('dogs').insert(dog);
   return checkError(response);
 }

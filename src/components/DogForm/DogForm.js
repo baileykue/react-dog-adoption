@@ -1,7 +1,16 @@
 import React from 'react';
 import './DogForm.css';
 
-export default function DogForm({ name, bio, image, age, breed, updateDogForm, handleSubmit }) {
+export default function DogForm({
+  name,
+  bio,
+  image,
+  age,
+  breed,
+  updateDogForm,
+  handleSubmit,
+  handleCreate,
+}) {
   return (
     <div>
       <form className="form">
