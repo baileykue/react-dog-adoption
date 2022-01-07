@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Admin/> should render the empty dog form 1`] = `
+<div>
+  <div>
+    <div>
+      <form
+        class="form"
+      >
+        <label>
+          Name: 
+        </label>
+        <input
+          placeholder="Name"
+          type="text"
+          value=""
+        />
+        <label>
+          Bio: 
+        </label>
+        <textarea
+          placeholder="Bio"
+          type="text"
+        />
+        <label>
+          Image: 
+        </label>
+        <input
+          placeholder="Image"
+          type="text"
+          value=""
+        />
+        <label>
+          Age: 
+        </label>
+        <input
+          placeholder="Age"
+          type="text"
+          value=""
+        />
+        <label>
+          Breed: 
+        </label>
+        <input
+          placeholder="Breed"
+          type="text"
+          value=""
+        />
+        <button>
+          Save
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
