@@ -21,3 +21,7 @@
 .bio-img {
   width: 650px;
 }
+
+textarea {
+  border-radius: 20px;
+}
