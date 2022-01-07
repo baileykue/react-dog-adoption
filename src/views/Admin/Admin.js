@@ -19,7 +19,7 @@ export default function Admin() {
       alert('You have successfully added a doggo!');
       history.push(`/`);
     } catch {
-      alert('Something went wrong! Please try again.');
+      alert('Something went wrong! Please make sure all fields are filled out.');
     }
   };
 
