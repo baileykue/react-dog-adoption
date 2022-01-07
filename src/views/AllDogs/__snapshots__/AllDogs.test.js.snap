@@ -158,6 +158,27 @@ exports[`<AllDogs/> should render the entire list of dogs 1`] = `
           </p>
         </div>
       </a>
+      <a
+        href="/dogs/16"
+      >
+        <div
+          class="card"
+        >
+          <img
+            src="https://placekitten.com/200/300"
+          />
+          <h2>
+            Not a Dog
+          </h2>
+          <p>
+            Hi! I am a(n) 
+            22
+             year(s) old 
+            Cat
+            . I cannot wait to meet you!
+          </p>
+        </div>
+      </a>
     </div>
   </div>
 </div>

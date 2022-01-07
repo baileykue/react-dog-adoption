@@ -11,7 +11,6 @@ test('<DogEdit/> should render the specific dog form information', async () => {
     </MemoryRouter>
   );
 
-  await screen.findByText('Image:');
+  await screen.findByDisplayValue('Stripe');
   expect(container).toMatchSnapshot();
-  //fixing tests
 });
