@@ -4,13 +4,13 @@ import Dog from './Dog';
 
 test('<Dog/> should render the specific dog information', async () => {
   const { container } = render(
-    <MemoryRouter initialEntries={['/dogs/4']}>
+    <MemoryRouter initialEntries={['/dogs/5']}>
       <Route path="/dogs/:id">
         <Dog />
       </Route>
     </MemoryRouter>
   );
 
-  await screen.findByText('Franny');
+  await screen.findByText('Stripe');
   expect(container).toMatchSnapshot();
 });

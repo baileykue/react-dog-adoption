@@ -5,8 +5,11 @@ import './Header.css';
 export default function Header() {
   return (
     <div className="header">
-      <NavLink exact to="/">
+      <NavLink className="home" exact to="/">
         Home
+      </NavLink>
+      <NavLink className="admin" to="/admin">
+        Admin
       </NavLink>
     </div>
   );

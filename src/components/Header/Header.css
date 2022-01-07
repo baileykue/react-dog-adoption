@@ -5,8 +5,12 @@
   padding: 15px;
   color: rgba(0, 0, 0, 0.8);
   font-size: x-large;
+  gap: 45px;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f6583c);
+  width: 100%;
 }
 
-.header:hover {
+.admin:hover,
+.home:hover {
   text-shadow: 2px 2px 2px darkgrey;
 }
